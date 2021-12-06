@@ -20,7 +20,7 @@ private slots:
 
     void on_ButtLogin_clicked();
 
-    void on_UsernameInput_textChanged();
+
 
 private:
     Ui::MainWindow *ui;

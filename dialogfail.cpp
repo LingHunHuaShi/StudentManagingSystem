@@ -7,6 +7,7 @@ DialogFail::DialogFail(QWidget *parent) :
 {
     ui->setupUi(this);
     setFixedSize(this->width() , this->height());
+
 }
 
 DialogFail::~DialogFail()
@@ -19,3 +20,7 @@ void DialogFail::on_ButtRetry_clicked()
 
 }
 
+void DialogFail::CsetText(QString wenben)
+{
+    ui->label->setText(wenben);
+}

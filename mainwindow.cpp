@@ -35,6 +35,8 @@ void MainWindow::on_ButtLogin_clicked()
     else
     {
         DialogFail *dialogfail=new DialogFail;
+        QLabel *label1=new QLabel;
+        label1->setText("请完整填写表格内容贵再保存！");
         dialogfail->show();
     }
 }
@@ -46,4 +48,6 @@ void MainWindow::on_ButtQuit_clicked()
 {
 
 }
+
+
 

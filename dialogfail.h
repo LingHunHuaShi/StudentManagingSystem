@@ -14,7 +14,7 @@ class DialogFail : public QDialog
 public:
     explicit DialogFail(QWidget *parent = nullptr);
     ~DialogFail();
-
+    void CsetText(QString);
 private slots:
     void on_ButtRetry_clicked();
 
